@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+    <script src="./hide-show.js"></script>
     <title>Projetin</title>
 </head>
 
@@ -57,7 +58,7 @@
                         <p>R$</p><span class="price">152,54</span>
                     </div>
                     <div class="card-button">
-                        <button onclick="fonePhillips()">Info</button>
+                        <button onclick="fonePhillips()" class="show-div">Info</button>
                     </div>
                 </div>
             </div>
@@ -74,7 +75,7 @@
                         <p>R$</p><span class="price">180,92</span>
                     </div>
                     <div class="card-button">
-                        <button onclick="caixaSony()">Info</button>
+                        <button onclick="caixaSony()" class="show-div">Info</button>
                     </div>
                 </div>
             </div>
@@ -91,7 +92,7 @@
                         <p>R$</p><span class="price">749,90</span>
                     </div>
                     <div class="card-button">
-                        <button onclick="airApple()">Info</button>
+                        <button onclick="airApple()" class="show-div">Info</button>
                     </div>
                 </div>
             </div>
@@ -100,9 +101,10 @@
         </div>
     </div>
     <!--modificando apenas o "footer"--->
-    <footer>
+    <footer class="footer">
         <div id="res">
-
+            <div id="valor-original"></div>
+            <div id="valor-desconto"></div>
         </div>
     </footer>
 </body>
