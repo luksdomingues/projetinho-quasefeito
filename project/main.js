@@ -20,7 +20,7 @@ function airApple() {
     var contaPorcentagem = 10/100*valorDoProduto.prod3
     var resultado3 = contaPorcentagem-valorDoProduto.prod3
     var res = document.querySelector('#res')
-    res.innerHTML = `${valorDoProduto.prod3} desconto: ${resultado3.toFixed(3)}`
+    res.innerHTML = `${valorDoProduto.prod3} desconto: ${resultado3.toFixed(2)}`
 }
 /* desconto : 10/100 'X' valor do produto = resultado
        resultado - valor do produto*/
