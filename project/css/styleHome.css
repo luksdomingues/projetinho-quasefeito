@@ -1,0 +1,42 @@
+
+.home .container-middle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home .container-middle .logo {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.home .container-middle .logo h2 {
+    color: #f3f1d2;
+    font-size: 2em;
+}
+
+.home .container-middle .menu {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.home .container-middle .menu ul {
+    display: flex;
+    color: #f3f1d2;
+    margin-right: 10px;
+}
+
+.home .container-middle .menu ul li {
+    color: #f3f1d2;
+    margin-right: 30px;
+}
+
+.home .container-middle .menu ul li a {
+    color: #f3f1d2;
+}
+
+.home .container-middle .menu ul li a:hover {
+    color: rgb(255, 123, 0);
+}

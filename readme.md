@@ -3,9 +3,9 @@ Objetivo:
 Na página de produto do site “Animale.com.br”, o desenvolvedor deverá criar um rodapé fixo na página, onde mostrará as seguintes informações coletadas daquele produto (imagem de exemplo em anexo):
 
 - Imagem[x]
-- Nome[xx]
+- Nome[x]
 - Preço
-- Preço com 10% de desconto
+- Preço com 10% de desconto[x]
 - Botão comprar (Quando clicado, deverá simular o click do original)
 - Botão de Fechar o rodapé
 
