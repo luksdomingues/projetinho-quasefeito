@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/styleHome.css">
     <script src="js/main.js"></script>
     <script src="js/hide-show.js"></script>
+    <script src="js/search.js"></script>
     <title>Projetin</title>
 </head>
 
@@ -37,10 +38,8 @@
                 </ul>
             </div>
             <!-- Fim do menu -->
-
         </div>
         <!-- Fim do container-middle -->
-
     </div>
     <!-- fim do container -->
 
@@ -104,10 +103,16 @@
     </div>
     <!--modificando apenas o "footer"--->
     <footer class="footer">
-        <div id="res">
-            <div id="valor-original"></div>
-            <div id="valor-desconto"></div>
-        </div>
+        <div id="res"></div>
+            <div class="container">
+                <h1>filter search teste</h1>
+                <input type="text" onkeyup="filter()" id="search" placeholder="search">
+                <ul id="menu">
+                    
+                    <li><a href="#"><img src="img/feature4.png" alt="php"></a></li>
+                    <li><a href="#"><img src="img/footerstore1.png" alt="java"></a></li>
+                </ul>
+            </div>
     </footer>
 </body>
 
