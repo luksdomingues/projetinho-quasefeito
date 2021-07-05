@@ -19,9 +19,3 @@ function airApple() {
     var resultado3 = contaPorcentagem - valorDoProduto.prod3
     res.innerHTML = `Valor do produto :${valorDoProduto.prod3} Com desconto de 10%: ${resultado3.toFixed(2)}`
 }
-/* desconto : 10/100 'X' valor do produto = resultado
-       resultado - valor do produto*/
-
-           // var original = document.querySelector('#valor-original')
-    // var res = document.querySelector('#valor-desconto')
-    // original.innerHTML = `${valorDoProduto.prod3}`
